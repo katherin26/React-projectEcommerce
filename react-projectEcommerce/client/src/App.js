@@ -10,12 +10,12 @@ import {
 
 function App() {
   return (
-    <div className="App">
+    <div className="App border-2 ">
       <Header />
+      <Services />
+      <Products />
       <Company />
       <ContactUs />
-      <Products />
-      <Services />
       <Footer />
     </div>
   );
