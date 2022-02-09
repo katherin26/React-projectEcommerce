@@ -1,7 +1,6 @@
 import "./App.css";
 import {
   Header,
-  Banner,
   Company,
   ContactUs,
   Products,
@@ -13,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Banner />
       <Company />
       <ContactUs />
       <Products />
