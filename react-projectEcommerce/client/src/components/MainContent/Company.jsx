@@ -9,12 +9,6 @@ function Company() {
         </h2>
 
         <div className="mt-6 flex flex-row border-2 justify-center">
-          <div className=" border-2 flex items-center">
-            <p className="">
-              We build tools for developers that make building healthcare
-              products easier than ever before.
-            </p>
-          </div>
           <div className="border-2">
             {" "}
             <img
@@ -22,6 +16,12 @@ function Company() {
               alt="AboutUs"
               className="w-full h-full object-center object-cover lg:w-full lg:h-full"
             />
+          </div>
+          <div className=" border-2 flex items-center">
+            <p className="">
+              We build tools for developers that make building healthcare
+              products easier than ever before.
+            </p>
           </div>
         </div>
 
