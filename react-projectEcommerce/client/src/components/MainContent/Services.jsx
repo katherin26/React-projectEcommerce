@@ -37,7 +37,7 @@ function Services() {
           <div className="group relative ">
             <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
               <img
-                src="http://assets.stickpng.com/images/5a452570546ddca7e1fcbc7d.png"
+                src="https://www.freepnglogos.com/uploads/email-png/blue-email-box-circle-png-transparent-icon-2.png"
                 alt="Llamadas"
                 className="w-full h-full object-center object-cover lg:w-full lg:h-full"
               />
