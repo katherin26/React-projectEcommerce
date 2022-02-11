@@ -1,6 +1,36 @@
 import React from "react";
-import recargasImg from "../../img/recargasImg.png";
-import internetImg from "../../img/internetImg.png";
+import ContactCard from "./ContactCard";
+import Internet from "../../img/internet.png";
+import Phone from "../../img/phone.png";
+import Consignacion from "../../img/consignacion.png";
+import Retiro from "../../img/retiro.png";
+import Recarga from "../../img/recarga.png";
+import Pagodeservicios from "../../img/pagodeservicios.png";
+import JuegosW from "../../img/juegosw.png";
+import Fotocopia from "../../img/fotocopia.png";
+
+let servicesTypes = [
+  { type: "Internet", image: Internet, detail: "" },
+  {
+    type: "Llamadas nacionales y internacionales",
+    image: Phone,
+    detail: " Claro | Movistar | Tigo | Uff | Virgin",
+  },
+  { type: "Consignaciones Bancarias", image: Consignacion, detail: "" },
+  { type: "Retiro de dinero en efectivo", image: Retiro, detail: "" },
+  {
+    type: "Recarga de minutos",
+    image: Recarga,
+    detail: "Claro | Movistar | Tigo | Uff | Virgin",
+  },
+  {
+    type: "Pago de servicios",
+    image: Pagodeservicios,
+    detail: "Luz | Agua | Gas | Phone | Tv",
+  },
+  { type: "Juegos de apuestas w play", image: JuegosW, detail: "" },
+  { type: "Fotocopias", image: Fotocopia, detail: "" },
+];
 
 function Services() {
   return (
@@ -11,199 +41,13 @@ function Services() {
         </h2>
 
         <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8  ">
-          <div className="group relative ">
-            <div className="w-full min-h-80 bg-sky-50  aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
-              <img
-                src="https://wmfeimages.s3.amazonaws.com/wp-content/uploads/2017/08/15135851/GLOBE-AND-COMPUTER-MOUSE.png"
-                alt="Internet"
-                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-              />
-            </div>
-            <div className="mt-4 ">
-              <div>
-                <h3 className="text-sm text-sky-900 font-bold ">
-                  <a href="#">
-                    <span
-                      aria-hidden="true"
-                      className="absolute inset-0"
-                    ></span>
-                    INTERNET
-                  </a>
-                </h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="group relative ">
-            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
-              <img
-                src="https://www.freepnglogos.com/uploads/email-png/blue-email-box-circle-png-transparent-icon-2.png"
-                alt="Llamadas"
-                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-              />
-            </div>
-            <div className="mt-4 ">
-              <div>
-                <h3 className="text-sm text-sky-900 font-bold ">
-                  <a href="#">
-                    <span
-                      aria-hidden="true"
-                      className="absolute inset-0"
-                    ></span>
-                    LLAMADAS NACIONALES Y INTERNACIONALES
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm text-gray-500">
-                  Claro | Movistar | Tigo | Uff | Virgin
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="group relative ">
-            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
-              <img
-                src="https://www.bancolombia.com/wcm/connect/0a58f9e0-1978-4944-99ed-ee4d523702b9/Paso_02_03.png?MOD=AJPERES"
-                alt="Consignaciones"
-                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-              />
-            </div>
-            <div className="mt-4 ">
-              <div>
-                <h3 className="text-sm text-sky-900 font-bold ">
-                  <a href="#">
-                    <span
-                      aria-hidden="true"
-                      className="absolute inset-0"
-                    ></span>
-                    CONSIGNACIONES BANCARIAS
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm text-gray-500">Neki | Daviplata</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="group relative ">
-            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/1611/1611220.png"
-                alt="Retiros"
-                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-              />
-            </div>
-            <div className="mt-4 ">
-              <div>
-                <h3 className="text-sm text-sky-900 font-bold ">
-                  <a href="#">
-                    <span
-                      aria-hidden="true"
-                      className="absolute inset-0"
-                    ></span>
-                    RETIRO DE DINERO EN EFECTIVO
-                  </a>
-                </h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="group relative">
-            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
-              <img
-                src="https://heroe.mx/static/media/producto3.33dcd587.png"
-                alt="Recargas"
-                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-              />
-            </div>
-            <div className="mt-4  ">
-              <div className="">
-                <h3 className="text-sm text-sky-900 font-bold ">
-                  <a href="#">
-                    <span
-                      aria-hidden="true"
-                      className="absolute inset-0"
-                    ></span>
-                    RECARGA DE MINUTOS
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm text-gray-500">
-                  Claro | Movistar | Tigo | Uff | Virgin
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="group relative ">
-            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
-              <img
-                src="https://4.bp.blogspot.com/-2G4v_UvgXkY/WekmiA1e8wI/AAAAAAAAABE/S_8oHXO37rETModCsF0bwixZcbi5o1SsACLcBGAs/s1600/PAGO%2BSERVICIOS.png"
-                alt="Pagos de servicios"
-                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-              />
-            </div>
-            <div className="mt-4 ">
-              <div>
-                <h3 className="text-sm text-sky-900 font-bold ">
-                  <a href="#">
-                    <span
-                      aria-hidden="true"
-                      className="absolute inset-0"
-                    ></span>
-                    PAGOS DE SERVICIOS
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm text-gray-500">
-                  Luz | Agua | Gas | Phone | Tv
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="group relative ">
-            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
-              <img
-                src="https://lh3.googleusercontent.com/rP8aq90WsF--vKmhZesYx5xJtovj8pzFti0Ucx3jPhcS5jst-FLze6GxRQUbMNy0Ef4"
-                alt="Apuestas W"
-                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-              />
-            </div>
-            <div className="mt-4 ">
-              <div>
-                <h3 className="text-sm text-sky-900 font-bold">
-                  <a href="#">
-                    <span
-                      aria-hidden="true"
-                      className="absolute inset-0"
-                    ></span>
-                    JUEGOS DE APUETAS W PLAY
-                  </a>
-                </h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="group relative ">
-            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/814/814618.png"
-                alt="FotocopiasImg"
-                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-              />
-            </div>
-            <div className="mt-4 ">
-              <div>
-                <h3 className="text-sm text-sky-900 font-bold">
-                  <a href="#">
-                    <span
-                      aria-hidden="true"
-                      className="absolute inset-0"
-                    ></span>
-                    FOTOCOPIAS
-                  </a>
-                </h3>
-              </div>
-            </div>
-          </div>
+          {servicesTypes.map((element, i) => (
+            <ContactCard
+              type={element.type}
+              image={element.image}
+              detail={element.detail}
+            />
+          ))}
         </div>
       </div>
     </div>

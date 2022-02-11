@@ -6,7 +6,7 @@ function ContactCard({ image, type, detail }) {
       <div className="w-full min-h-80 bg-sky-50  aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
         <img
           src={image}
-          alt="ContactUsPhone"
+          alt="image"
           className="w-full h-full object-center object-cover lg:w-full lg:h-full"
         />
       </div>

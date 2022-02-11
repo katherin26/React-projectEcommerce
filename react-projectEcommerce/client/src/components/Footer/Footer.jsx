@@ -4,7 +4,7 @@ import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
-    <div className="w-auto bg-indigo-600 h-24 flex items-center justify-center">
+    <div className="w-auto bg-sky-900 h-24 flex items-center justify-center">
       <span className="text-white">
         <FontAwesomeIcon icon={faCopyright} className="mr-1" />
         Copyright 2022 <b>Variedades o&f.</b> All rights reserved. | Handcrafted
