@@ -4,43 +4,17 @@ import internetImg from "../../img/internetImg.png";
 
 function Services() {
   return (
-    <div className="bg-white border-2">
+    <div className="bg-zinc-50 border-2">
       <div className=" max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 ">
         <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
           <span className="block xl:inline text-sky-900">Services </span>
         </h2>
 
         <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8  ">
-          <div className="group relative">
-            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
-              <img
-                src={recargasImg}
-                alt="Recargas"
-                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-              />
-            </div>
-            <div className="mt-4  ">
-              <div className="">
-                <h3 className="text-sm text-sky-900 font-bold ">
-                  <a href="#">
-                    <span
-                      aria-hidden="true"
-                      className="absolute inset-0"
-                    ></span>
-                    RECARGA DE MINUTOS
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm text-gray-500">
-                  Claro | Movistar | Tigo | Uff | Virgin
-                </p>
-              </div>
-            </div>
-          </div>
-
           <div className="group relative ">
-            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+            <div className="w-full min-h-80 bg-sky-50  aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
               <img
-                src="https://ci4.googleusercontent.com/proxy/wqPQX9ofe0fQIvFXW8xeIJHJqReuJbf0MnlLL4Z2EChyRcTmnS3uMgjpIuUCOPu4z34_ThaMYd8M2PhgW8pOFfjTFKMw_96j0gGlTavop1HD59EmxbR1ZDROeCUK=s0-d-e1-ft"
+                src="https://wmfeimages.s3.amazonaws.com/wp-content/uploads/2017/08/15135851/GLOBE-AND-COMPUTER-MOUSE.png"
                 alt="Internet"
                 className="w-full h-full object-center object-cover lg:w-full lg:h-full"
               />
@@ -61,9 +35,9 @@ function Services() {
           </div>
 
           <div className="group relative ">
-            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSFJeCrIsUqOdGzPo809aJb_xKBo7wXMpSfCbbv4y18ViRd7kmeKHXpgQ6Z3kKWez-0gY&usqp=CAU"
+                src="http://assets.stickpng.com/images/5a452570546ddca7e1fcbc7d.png"
                 alt="Llamadas"
                 className="w-full h-full object-center object-cover lg:w-full lg:h-full"
               />
@@ -87,9 +61,9 @@ function Services() {
           </div>
 
           <div className="group relative ">
-            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYaOuK_yWI7m2qD24I_Xpgr8yIA28k3SRMK57B0fbJwK2rgvGImDxRKuKm1iiRFlFPMWc&usqp=CAU"
+                src="https://www.bancolombia.com/wcm/connect/0a58f9e0-1978-4944-99ed-ee4d523702b9/Paso_02_03.png?MOD=AJPERES"
                 alt="Consignaciones"
                 className="w-full h-full object-center object-cover lg:w-full lg:h-full"
               />
@@ -111,9 +85,9 @@ function Services() {
           </div>
 
           <div className="group relative ">
-            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY2YHcZEp8JwgfX7Fbr9Wte7Pd-TrvWykuqntXACnnEI7QI0rWFJYbQD_BksgB5d09g9Y&usqp=CAU"
+                src="https://cdn-icons-png.flaticon.com/512/1611/1611220.png"
                 alt="Retiros"
                 className="w-full h-full object-center object-cover lg:w-full lg:h-full"
               />
@@ -133,10 +107,36 @@ function Services() {
             </div>
           </div>
 
-          <div className="group relative ">
-            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+          <div className="group relative">
+            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLObZPduwoTHfLICi4sgQWVtAmaKa6iyLquaO-7Ov3neglf3-JWGi4-UobcCVxhkSrmM0&usqp=CAU"
+                src="https://heroe.mx/static/media/producto3.33dcd587.png"
+                alt="Recargas"
+                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
+              />
+            </div>
+            <div className="mt-4  ">
+              <div className="">
+                <h3 className="text-sm text-sky-900 font-bold ">
+                  <a href="#">
+                    <span
+                      aria-hidden="true"
+                      className="absolute inset-0"
+                    ></span>
+                    RECARGA DE MINUTOS
+                  </a>
+                </h3>
+                <p className="mt-1 text-sm text-gray-500">
+                  Claro | Movistar | Tigo | Uff | Virgin
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="group relative ">
+            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
+              <img
+                src="https://4.bp.blogspot.com/-2G4v_UvgXkY/WekmiA1e8wI/AAAAAAAAABE/S_8oHXO37rETModCsF0bwixZcbi5o1SsACLcBGAs/s1600/PAGO%2BSERVICIOS.png"
                 alt="Pagos de servicios"
                 className="w-full h-full object-center object-cover lg:w-full lg:h-full"
               />
@@ -160,9 +160,9 @@ function Services() {
           </div>
 
           <div className="group relative ">
-            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
               <img
-                src="https://www.1250amcapitalradio.com/wp-content/uploads/2019/01/Wplay-Logo.jpg"
+                src="https://lh3.googleusercontent.com/rP8aq90WsF--vKmhZesYx5xJtovj8pzFti0Ucx3jPhcS5jst-FLze6GxRQUbMNy0Ef4"
                 alt="Apuestas W"
                 className="w-full h-full object-center object-cover lg:w-full lg:h-full"
               />
@@ -176,6 +176,29 @@ function Services() {
                       className="absolute inset-0"
                     ></span>
                     JUEGOS DE APUETAS W PLAY
+                  </a>
+                </h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="group relative ">
+            <div className="w-full min-h-80 bg-sky-50 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none p-2 shadow-lg shadow-sky-200/50">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/814/814618.png"
+                alt="FotocopiasImg"
+                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
+              />
+            </div>
+            <div className="mt-4 ">
+              <div>
+                <h3 className="text-sm text-sky-900 font-bold">
+                  <a href="#">
+                    <span
+                      aria-hidden="true"
+                      className="absolute inset-0"
+                    ></span>
+                    FOTOCOPIAS
                   </a>
                 </h3>
               </div>
