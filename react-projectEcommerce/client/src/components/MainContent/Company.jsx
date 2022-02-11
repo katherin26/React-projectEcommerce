@@ -2,7 +2,7 @@ import React from "react";
 
 function Company() {
   return (
-    <div className="border-2 bg-sky-50">
+    <div className="border-2 bg-sky-50" id="aboutus-section">
       <div className=" max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 ">
         <h2 className="text-3xl tracking-tight font-extrabold text-sky-900 sm:text-5xl md:text-5xl">
           <span className="block xl:inline">About Us</span>
