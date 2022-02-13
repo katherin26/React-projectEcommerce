@@ -50,9 +50,9 @@ let servicesTypes = [
 
 function Services() {
   return (
-    <div className="bg-zinc-50 border-2" id="services-section">
+    <div className="bg-zinc-50 border-2 " id="services-section">
       <div className=" max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 ">
-        <h2 className="text-3xl tracking-tight font-extrabold text-sky-900 sm:text-5xl md:text-5xl">
+        <h2 className="text-3xl tracking-tight font-extrabold text-sky-900 sm:text-5xl md:text-5xl text-center">
           <span className="block xl:inline text-sky-900  ">Servicios </span>
         </h2>
 

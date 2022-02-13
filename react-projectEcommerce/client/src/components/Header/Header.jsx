@@ -7,7 +7,7 @@ function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="relative bg-white overflow-hidden">
+    <div className="relative bg-white overflow-hidden ">
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
@@ -67,15 +67,15 @@ function Header() {
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 text-xl ">
                   <a
-                    href="#services-section"
-                    className="font-semibold text-sky-900 hover:text-sky-500"
+                    href="#services-section "
+                    className="font-semibold text-sky-900 hover:text-sky-500  "
                   >
                     Services
                   </a>
 
                   <a
                     href="#products-section"
-                    className="font-semibold text-sky-900 hover:text-sky-500"
+                    className="font-semibold text-sky-900 hover:text-sky-500 snap-normal snap-center"
                   >
                     Products
                   </a>
@@ -168,7 +168,7 @@ function Header() {
           </div>
 
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-            <div className="sm:text-center lg:text-left">
+            <div className="sm:text-center  lg:text-left">
               <h1 className="tracking-tight font-extrabold text-sky-900 text-3xl md:text-6xl">
                 <span className="block xl:inline">Variedades OYF </span>
                 <span className="text-sky-500 xl:inline ">
