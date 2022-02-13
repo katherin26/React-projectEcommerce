@@ -5,6 +5,7 @@ function FooterBtn({ image, href }) {
     <div className="ml-5  ">
       <a
         href={href}
+        target="_blank"
         className=" w-full flex items-center justify-center  border border-transparent  
         rounded-md text-sky-700 bg-sky-100  shadow-lg shadow-sky-400/30 hover:bg-sky-200  
         md:py-1  md:px-9  transition transform hover:-translate-y-1 motion-reduce:transition-none 
