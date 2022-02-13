@@ -7,13 +7,13 @@ import CreamHelado from "../../img/icecream.png";
 
 let productsTypes = [
   {
-    type: "Papeleria",
+    type: "Papelería",
     image: UtilesEscolares,
     detail: "Utiles Escolares | Libros",
   },
   { type: "Argollado", image: Argollado, detail: "" },
-  { type: "Laminacion", image: Laminacion, detail: "" },
-  { type: "Cream Helado", image: CreamHelado, detail: "" },
+  { type: "Laminación", image: Laminacion, detail: "" },
+  { type: "Crem Helado", image: CreamHelado, detail: "" },
 ];
 
 function Products() {
@@ -21,7 +21,7 @@ function Products() {
     <div className="bg-zinc-50 " id="products-section">
       <div className=" max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 ">
         <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl text-center">
-          <span className="block xl:inline text-sky-900">Products </span>
+          <span className="block xl:inline text-sky-900">Productos </span>
         </h2>
 
         <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8  ">

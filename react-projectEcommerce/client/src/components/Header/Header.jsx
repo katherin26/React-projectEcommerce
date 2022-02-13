@@ -70,27 +70,27 @@ function Header() {
                     href="#services-section "
                     className="font-semibold text-sky-900 hover:text-sky-500  "
                   >
-                    Services
+                    Servicios
                   </a>
 
                   <a
                     href="#products-section"
                     className="font-semibold text-sky-900 hover:text-sky-500 snap-normal snap-center"
                   >
-                    Products
+                    Productos
                   </a>
 
                   <a
                     href="#aboutus-section"
                     className="font-semibold text-sky-900 hover:text-sky-500"
                   >
-                    About us
+                    Nosotros
                   </a>
                   <a
                     href="#contactus-section"
                     className="font-semibold text-sky-500 hover:text-sky-900"
                   >
-                    Contact us
+                    Contáctanos
                   </a>
                 </div>
               </nav>
@@ -107,7 +107,7 @@ function Header() {
                         <FontAwesomeIcon icon={faF} />
                       </span>
                     </div>
-                    <div className="-mr-2">
+                    <div className="-mr-2 ">
                       <button
                         onClick={() => setShowMenu(!showMenu)}
                         type="button"
@@ -133,33 +133,33 @@ function Header() {
                     </div>
                   </div>
 
-                  <div className="px-2 pt-2 pb-3 space-y-1">
+                  <div className="px-2 pt-2 pb-3 space-y-1 ">
                     <a
                       href="#services-section"
-                      className="block px-3 py-2 rounded-md text-base font-semibold text-sky-900 hover:text-sky-500 hover:bg-sky-50 "
+                      className="text-center block px-3 py-2 rounded-md text-base font-semibold text-sky-900 hover:text-sky-500 hover:bg-sky-50 "
                     >
-                      Services
+                      Servicios
                     </a>
 
                     <a
                       href="#products-section"
-                      className="block px-3 py-2 rounded-md text-base font-semibold text-sky-900 hover:text-sky-500 hover:bg-sky-50"
+                      className="text-center block px-3 py-2 rounded-md text-base font-semibold text-sky-900 hover:text-sky-500 hover:bg-sky-50"
                     >
-                      Products
+                      Productos
                     </a>
 
                     <a
                       href="#aboutus-section"
-                      className="block px-3 py-2 rounded-md text-base font-semibold text-sky-900 hover:text-sky-500 hover:bg-sky-50"
+                      className=" text-center block px-3 py-2 rounded-md text-base font-semibold text-sky-900 hover:text-sky-500 hover:bg-sky-50"
                     >
-                      Company
+                      Nosotros
                     </a>
 
                     <a
                       href="#contactus-section"
-                      className="block px-3 py-2 rounded-md text-base font-semibold text-sky-900 hover:text-sky-500 hover:bg-sky-50"
+                      className=" text-center block px-3 py-2 rounded-md text-base font-semibold text-sky-900 hover:text-sky-500 hover:bg-sky-50"
                     >
-                      ContactUs
+                      Contáctanos
                     </a>
                   </div>
                 </div>
@@ -176,9 +176,10 @@ function Header() {
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0 text-justify">
-                Nuestra empresa es un local publico que ofrece servicios de
-                acceso a internet, llamadas, recargas de minutos, papeleria,
-                consignaciones y retiros.
+                Nuestra empresa es un local público que ofrece servicios de
+                acceso a internet, llamadas, recargas de minutos, papelería,
+                consignaciones al banco, retiros de dinero en efectivo, pago de
+                servicios y apuestas en línea.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="mt-3 sm:mt-0 sm:ml-3 ">
@@ -187,7 +188,7 @@ function Header() {
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg font-semibold rounded-md text-sky-700 bg-sky-100  shadow-lg shadow-sky-400/50 hover:bg-sky-200  md:py-4 md:text-xl md:px-10 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none"
                   >
                     {" "}
-                    Chat with Us!{" "}
+                    Nuestro Chat !{" "}
                   </a>
                 </div>
               </div>
