@@ -185,19 +185,19 @@ function Header() {
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0 text-justify">
                 Si quiere que nuestra{" "}
                 <b className="text-sky-900">inteligencia artificial</b> lea por
-                usted, haga click en el boton con icono de microfono y diga
-                cualquiera de las preguntas que se encuentran abajo.
+                usted, haga click en el boton y diga con icono de microfono y
+                diga cualquiera de las preguntas que se encuentran abajo.
                 <ol className="mt-3">
                   <li className="mt-3 ">
                     <b className="text-sky-900">
-                      1. Tell me more about : Servicios | Productos | Compania?
+                      1. Tell me more about : Services | Products | Company?
                     </b>
                   </li>
 
                   <li className="mt-3">
                     <b className="text-sky-900">
-                      2. Tell me how I contact the company by : telefono | Chat
-                      | Correo Electronico ?
+                      2. Tell me how I can getting contact using : Phone | Chat
+                      | Email ?
                     </b>
                   </li>
                 </ol>
