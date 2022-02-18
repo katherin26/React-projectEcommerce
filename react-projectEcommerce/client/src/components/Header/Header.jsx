@@ -170,7 +170,7 @@ function Header() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center  lg:text-left">
               <h1 className="tracking-tight font-extrabold text-sky-900 text-3xl md:text-6xl">
-                <span className="block xl:inline">Variedades OYF </span>
+                <span className="block xl:inline">CeTech-OYF </span>
                 <span className="text-sky-500 xl:inline ">
                   Cibercafé y Papeleria
                 </span>

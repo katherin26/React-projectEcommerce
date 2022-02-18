@@ -8,7 +8,7 @@ let contactTypes = [
   {
     type: "Número de Teléfono",
     image: Phone,
-    detail: "2698547",
+    detail: "300 207 0241 - 313 870 4224",
   },
   {
     type: "Nuestro Chat !",

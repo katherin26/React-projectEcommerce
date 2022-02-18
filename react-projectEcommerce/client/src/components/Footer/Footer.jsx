@@ -31,8 +31,8 @@ function Footer() {
       <div className="mt-5">
         <span className="text-white  text-sm lg:text-2xl text-center">
           <FontAwesomeIcon icon={faCopyright} className="mr-1" />
-          Copyright 2022 <b>Variedades OYF.</b> All rights reserved. |
-          Handcrafted by Katherin Ochoa
+          Copyright 2022 <b>CeTech-OYF.</b> All rights reserved. | Handcrafted
+          by Katherin Ochoa
         </span>
       </div>
     </div>

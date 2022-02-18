@@ -40,7 +40,7 @@ function Company() {
               NUESTRA HISTORIA
             </h3>
             <p className="mt-6 text-justify text-base lg:text-3xl">
-              Fundada en el año 2006, Variedades
+              Fundada en el año 2006, CeTech-
               <b className="text-sky-900"> OYF</b> inicio como Cibercafé
               ofreciendo a sus usuarios acceso a internet, llamadas
               Internacionales y recarga de minutos. Un par de años más tarde fue
