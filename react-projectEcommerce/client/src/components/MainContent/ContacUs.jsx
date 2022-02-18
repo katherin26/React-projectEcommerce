@@ -15,7 +15,7 @@ let contactTypes = [
     type: "Nuestro Chat !",
     image: Chat,
     detail: "Contáctanos por Chat",
-    href: "",
+    href: "http://chat.cetech-oyf.com",
   },
   {
     type: "Envíanos un Email",

@@ -203,15 +203,15 @@ function Header() {
                 </ol>
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="mt-3 sm:mt-0 sm:ml-3 ">
+                <button className="mt-3 sm:mt-0 sm:ml-3  ">
                   <a
-                    href="#"
+                    href="http://chat.cetech-oyf.com"
+                    target="_blank"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg font-semibold rounded-md text-sky-700 bg-sky-100  shadow-lg shadow-sky-400/50 hover:bg-sky-200  md:py-4 md:text-xl md:px-10 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none"
                   >
-                    {" "}
-                    Nuestro Chat !{" "}
+                    Nuestro Chat !
                   </a>
-                </div>
+                </button>
               </div>
             </div>
           </main>

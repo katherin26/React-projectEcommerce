@@ -13,7 +13,7 @@ function ContactCard({ image, type, detail, href }) {
       <div className="mt-4 text-center ">
         <div className="">
           <h3 className="text-xl text-sky-900 font-bold">
-            <a href={href}>
+            <a href={href} target="_blank">
               <span aria-hidden="true" className="absolute inset-0"></span>
               {type}
             </a>
