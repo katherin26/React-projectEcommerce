@@ -1,0 +1,76 @@
+Transform: AWS::Serverless-2016-10-31
+
+Parameters:
+  NodeEnv:
+    Type: String
+    Default: testing
+    AllowedValues:
+      - production
+      - testing
+  AllowOrigins:
+    Type: String
+  AllowHeaders:
+    Type: String
+  AllowMethods:
+    Type: String
+  StreamAppId:
+    Type: String
+  StreamApiKey:
+    Type: String
+  StreamApiSecret:
+    Type: String
+  TwilioAccountSid:
+    Type: String
+  TwilioAuthToken:
+    Type: String
+  TwilioMessagingServiceSid:
+    Type: String
+
+Globals:
+  Function:
+    Runtime: nodejs14.x
+    Timeout: 30
+    Handler: index.handler
+    Environment:
+      Variables:
+        NODE_ENV: !Ref NodeEnv
+
+Description: Chat Backend
+
+Resources:
+  ApiLambdaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/api/
+      Description: Chat Backend Function, it is called when there is a request
+      Events:
+        PostRequest:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref ChatApi
+            Method: POST
+            Path: /{proxy+}
+            PayloadFormatVersion: "1.0"
+      Environment:
+        Variables:
+          STREAM_APP_ID: !Ref StreamAppId
+          STREAM_API_KEY: !Ref StreamApiKey
+          STREAM_API_SECRET: !Ref StreamApiSecret
+          TWILIO_ACCOUNT_SID: !Ref TwilioAccountSid
+          TWILIO_AUTH_TOKEN: !Ref TwilioAuthToken
+          TWILIO_MESSAGING_SERVICE_SID: !Ref TwilioMessagingServiceSid
+
+  ChatApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      CorsConfiguration:
+        AllowOrigins: !Ref AllowOrigins
+        AllowHeaders: !Ref AllowHeaders
+        AllowMethods: !Ref AllowMethods
+        MaxAge: 3600
+        AllowCredentials: true
+
+Outputs:
+  ApiEndpoint:
+    Description: API Gateway URL
+    Value: !Sub "https://${ChatApi}.execute-api.${AWS::Region}.${AWS::URLSuffix}"
