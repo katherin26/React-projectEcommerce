@@ -21,7 +21,7 @@ let contactTypes = [
     type: "Envíanos un Email",
     image: Email,
     detail: "Haga Click en la carta para enviar un Email",
-    href: "mailto:ft.katheochoa@gmail.com",
+    href: "mailto:oliver2338@outlook.com",
   },
 ];
 
