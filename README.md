@@ -2,8 +2,8 @@
 
 ## **Client Side :**
 ```
-  npm install -D tailwindcss postcss autoprefixer, npx ,tailwindcss init, add the paths with = "./src/*/.{js,jsx,ts,tsx}", FontAwesome, 
-  ALAN AI : command voice created with https://alan.app/.
+  npm install -D tailwindcss postcss autoprefixer, npx ,tailwindcss init, add the paths with = "./src/*/.{js,jsx,ts,tsx}", 
+  FontAwesome, ALAN AI : command voice created with https://alan.app/.
 ```
 
 ## **Server Side :** 
