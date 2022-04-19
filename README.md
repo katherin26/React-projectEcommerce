@@ -6,7 +6,7 @@
   ALAN AI : command voice created with https://alan.app/.
 ```
 
-## **Server Side:** 
+## **Server Side :** 
 ```
   Chat with AWS sam deploy and API: getstream.io.
 ```
